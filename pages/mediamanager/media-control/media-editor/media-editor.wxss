@@ -1,0 +1,39 @@
+/* pages/mediamanager/media-control/media-editor/media-editor.wxss */
+.editor_wrap {
+  width: 178rpx;
+  height: 178rpx;
+  background-color: #fff;
+  position: relative;
+}
+.pic_del_wrap {
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 0 10rpx 0 10rpx;
+  position: absolute;
+  right: 7.4rpx;
+  top: 5rpx;
+}
+.pic_wrap {
+  padding: 5rpx 5rpx 5rpx 5rpx;
+  width: 168rpx;
+  height: 168rpx;
+  border-radius: 10rpx;
+  background-color: #fff;
+}
+.order_pic_img {
+  border-radius: 10rpx;
+  width: 168rpx;
+  height: 168rpx;
+}
+.order_play_img {
+  position: absolute;
+  top: calc(50% - 20rpx);
+  left: calc(50% - 20rpx);
+  width: 40rpx;
+  height: 40rpx;
+}
+.pic_add_wrap {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}

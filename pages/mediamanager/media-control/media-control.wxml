@@ -1,0 +1,4 @@
+<!-- pages/mediamanager/media-control/media-control.wxml -->
+<view class="editor_list_wrap">
+  <media-editor class='editor' wx:for="{{medias}}" wx:key="this" media="{{item}}" index="{{index}}" bind:editorActionDelete="_controlActionDelete" bind:editorActionPreview="_controlActionPreview" bind:editorActionPicAdd="_controlActionPicAdd"></media-editor>
+</view>

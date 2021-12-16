@@ -1,0 +1,13 @@
+/* pages/mediamanager/media-control/media-control.wxss */
+.editor {
+  display: flex;
+}
+.editor_list_wrap {
+  margin-left: 19rpx;
+  margin-top: 15rpx;
+  margin-right: 15rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

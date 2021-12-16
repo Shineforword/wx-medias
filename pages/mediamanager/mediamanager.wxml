@@ -1,0 +1,4 @@
+<!--pages/mediamanager/mediamanager.wxml-->
+<view >
+<media-control medias="{{medias}}" bind:controlActionDelete="mediamanagerDelete" bind:controlActionPreview="mediamanagerPreview" bind:controlActionPicAdd="mediamanagerAdd"></media-control>
+</view>

@@ -1,0 +1,16 @@
+<!-- pages/mediamanager/media-control/media-editor/media-editor.wxml -->
+<view class="editor_wrap">
+  <block wx:if="{{media.tempFilePath}}">
+    <image class="pic_del_wrap" bindtap="_editorActionDelete" data-index="{{index}}" src="../images/media_manager_del.png"></image>
+    <view class="pic_wrap" bindtap="_editorActionPreview" data-index="{{index}}">
+      <!-- <image src="{{ media.tempFilePath }}" class="order_pic_img"></image> -->
+      <!-- <image src="{{ media.thumbTempFilePath }}" class="order_pic_img"></image> -->
+      <!-- 注意真机数据变化(吞fileType) -->
+      <image src="{{media.thumbTempFilePath ? media.thumbTempFilePath : media.tempFilePath }}" class="order_pic_img"></image>
+      <image src="{{media.thumbTempFilePath ? '../images/media_manager_play.png' : '' }}" class="order_play_img"></image>
+    </view>
+  </block>
+  <block wx:else="{{!media.tempFilePath}}">
+    <image class="pic_add_wrap" bindtap="_editorActionPicAdd" src="../images/media_manager_add.png"></image>
+  </block>
+</view>

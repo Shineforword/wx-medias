@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "media-control":"./media-control/media-control"
+  },
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "media-manager",
+  "backgroundTextStyle": "light"
+}
